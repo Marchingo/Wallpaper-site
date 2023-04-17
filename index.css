@@ -1,0 +1,101 @@
+body {
+  text-align: center;
+  background: linear-gradient(#8470ff, steelblue);
+  border: 5px solid blueviolet;
+  padding: 20px;
+}
+.titleflex{
+display:flex;
+justify-content: space-around;
+}
+.gif{
+  width: 150px;
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  background-color: blueviolet;
+  display: block;
+  margin: 50px auto ;
+  height: 40px;
+  width: 200px;
+  padding: 0px 20px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-rows: 300px 300px;
+
+  grid-gap: 10px;
+}
+
+.img-dec {
+  width: 150px;
+  height: 300px;
+  background-size: cover;
+  filter: drop-shadow(5px 5px 5px black);
+}
+.img-dec:hover {
+  border: 2px solid #4b0082;
+}
+
+.legendry-img {
+  width: 150px;
+  height: 300px;
+  background-size: cover;
+  filter: drop-shadow(5px 5px 5px black);
+}
+.legendry-img:hover{
+    border: 2px solid gold;
+}
+.img-bck {
+  filter: invert(5px);
+}
+
+.instruct {
+  color: #ffffff;
+  background-color: blueviolet;
+  margin: 30px 30px 20px 30px;
+  font-size: large;
+}
+
+#btn-el{
+  border: none;
+  padding: 5px 15px 5px 15px;
+  background-color: #4b0082;
+  color: #ffffff;
+  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  }
+#btn-el:hover{
+ background-color: #ffffff;
+ color: #4b0082;
+ border-radius: 20px;
+ transition-duration: 1s;
+} 
+
+#text-legendry{
+  background-color:blueviolet;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.text{
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+}
+
+.mainFlex{
+  display: flex;
+  justify-content:space-around;
+}
+
+#list{
+  color: gold;
+  text-shadow: 2px 2px 3px black;
+  font-weight:900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding: 0px 10px;
+}
