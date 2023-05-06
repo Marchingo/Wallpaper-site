@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background: linear-gradient(#8470ff, steelblue);
+  background: black;
   border: 5px solid blueviolet;
   padding: 20px;
 }
@@ -14,6 +14,7 @@ justify-content: space-around;
 h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
+  color: crimson;
   background-color: blueviolet;
   display: block;
   margin: 50px auto ;
@@ -33,20 +34,20 @@ h1 {
   width: 150px;
   height: 300px;
   background-size: cover;
-  filter: drop-shadow(5px 5px 5px black);
 }
 .img-dec:hover {
   border: 2px solid #4b0082;
+  filter: drop-shadow(2px 2px 5px brown);
 }
 
 .legendry-img {
   width: 150px;
   height: 300px;
   background-size: cover;
-  filter: drop-shadow(5px 5px 5px black);
 }
 .legendry-img:hover{
-    border: 2px solid gold;
+  border: 2px solid gold;
+  filter: drop-shadow(2px 2px 5px brown);
 }
 .img-bck {
   filter: invert(5px);
@@ -60,6 +61,8 @@ h1 {
 }
 
 #btn-el{
+  min-height: 50px;
+  min-width: 110px ;
   border: none;
   padding: 5px 15px 5px 15px;
   background-color: #4b0082;
@@ -67,9 +70,10 @@ h1 {
   /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
-  }
+  font-size: 20px;
+}
 #btn-el:hover{
- background-color: #ffffff;
+  background-color: #ffffff;
  color: #4b0082;
  border-radius: 20px;
  transition-duration: 1s;
@@ -94,8 +98,56 @@ h1 {
 
 #list{
   color: gold;
-  text-shadow: 2px 2px 3px black;
+  text-shadow: 2px 2px 3px brown;
   font-weight:900;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   padding: 0px 10px;
+  padding: 0px 10px;
+  margin-top: 50px;
+}
+
+.img-doc{
+  max-width: 400px;
+  min-width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.img-doc:hover {
+  border: 2px solid #4b0082;
+  filter: drop-shadow(2px 2px 5px brown);
+}
+
+
+.legendry-imgs {
+  max-width: 400px;
+  min-width: 350px;
+  background-size: cover;
+}
+.legendry-imgs:hover{
+  
+  border: 3px solid gold;
+  filter: drop-shadow(1px 1px 6px red);
+  transition-duration: 3s;
+  border-radius: 50px;
+}
+
+#renderPhoto{
+  min-width: 380px;
+  max-width: 430px;
+
+  min-height: 790px;
+  max-height: 890px;
+  border: 5px solid orangered;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#number-el{
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: crimson;
+  background-color: blueviolet;
 }
